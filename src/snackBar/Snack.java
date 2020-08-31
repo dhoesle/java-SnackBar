@@ -1,6 +1,6 @@
 package snackBar;
 
-public class snackBar
+public class Snack
 {
 	private static int maxId = 0;
 	private int id;

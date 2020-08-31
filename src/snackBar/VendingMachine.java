@@ -7,7 +7,7 @@ public class VendingMachine
 	private String name;
 
 
-	public VendingMachine(String name, int id)
+	public VendingMachine(String name)
 	{
 		maxId++;
 		id = maxId;
@@ -21,7 +21,7 @@ public class VendingMachine
 		return id;
 	}
 
-	public int getName()
+	public String getName()
 	{
 		return name;
 	}

@@ -10,7 +10,7 @@ public class Customer
 	private double cashOnHand;
 
 	// constructor
-	public Customer(String name, double cashOnHand, int id)
+	public Customer(String name, double cashOnHand)
 	{
 		maxId++;
 		id = maxId;
@@ -54,4 +54,6 @@ public class Customer
 	}
 
 	
+
+
 }
