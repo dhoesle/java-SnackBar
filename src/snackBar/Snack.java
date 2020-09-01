@@ -61,14 +61,14 @@ public class Snack
 		this.vendingId = vendingId;
 	}
 
-	public int addQuantity(int additionalQuan)
+	public void addQuantity(int additionalQuan)
 	{
-		return this.quantity + additionalQuan;
+		this.quantity = this.quantity + additionalQuan;
 	}
 
-	public double buySnacks()
+	public void buySnacks(int snacksBought)
 	{
-		return this.quantity * this.cost;
+		this.quantity = this.quantity - snacksBought;
 	}
 
 	public double getTotal(int givenQuan)

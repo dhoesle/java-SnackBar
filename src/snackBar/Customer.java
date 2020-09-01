@@ -43,14 +43,14 @@ public class Customer
 		this.name = name;
 	}
 
-	public double addCash(double addedCash)
+	public void addCash(double addedCash)
 	{
-		return addedCash + this.cashOnHand;
+		this.cashOnHand = addedCash + this.cashOnHand;
 	}
 
-	public double buySnacks(double totalCost)
+	public void buySnacks(double totalCost)
 	{
-		return this.cashOnHand - totalCost;
+		this.cashOnHand = this.cashOnHand - totalCost;
 	}
 
 	
